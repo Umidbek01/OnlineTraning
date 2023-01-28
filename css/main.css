@@ -1,0 +1,596 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.container{
+    width: 1076px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul,
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/**************** SITE HEADER STYLES START  ***************************/
+.site-header{
+    background-color: #b9eaa8;
+    
+}
+
+
+.site-header__wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+.site-header__logo{
+    display: inline-block;
+    margin-right: 76px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: #252B42;
+}
+
+.sitenav{
+    display: flex;
+    justify-content: space-between;
+    width: 815px;
+}
+
+.sitenav__list{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(last-child){
+    margin-right: 21px;
+}
+
+.sitenav__link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.sitenav__registers{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sitenav__login:not(last-child){
+    margin-right: 45px;
+}
+
+.sitenav__login-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.sitenav__login-linkbtn{
+    padding-top: 15px;
+    padding-right: 52px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    background: #23A6F0;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+/**************** SITE HEADER STYLES END  ***************************/
+/**************** SITE MAIN STYLES START  ***************************/
+
+/* Hero section styles start */
+.hero{
+    background-color: #b9eaa8;
+    padding-top: 93px;
+}
+
+.hero__desc{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hero__desc-info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+}
+
+.hero__desc-title{
+    width: 542px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.hero__desc-text{
+    width: 530px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.hero__desc-join{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    background: #23A6F0;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.hero__desc-learnbtn{
+    padding: 15px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    color: #23A6F0;
+}
+
+/* hero products list styles start */
+.hero__products{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.hero__products-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.hero__products-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 328px;
+    padding: 35px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.hero__products-item:not(last-child){
+    margin-right: 30px;
+}
+
+.hero__products-img{
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+.hero__products-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.hero__products-line{
+    width: 50px;
+    height: 3px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    background-color: #e74040;
+}
+
+.hero__products-desc{
+    margin-top: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* hero products list styles end */
+
+/* ABOUT STAYLES START */
+.about__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.about-img{
+    width: 508px;
+    height: 441px;
+    display: inline-block;
+    margin-right: 156px;
+}
+
+.about__wrapper-desc{
+    width: 401px;
+}
+
+.about__desc-line{
+    width: 94px;
+    height: 8px;
+    margin-bottom: 35px;
+    margin-left: 0;
+    background-color: #e74040;
+}
+
+.about__desc-title{
+    width: 405px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.abour__desc-text{
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.about__desc-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #23A6F0;
+}
+.card__header{
+    position: relative;
+}
+
+
+.card__header-img{
+    width: 209px;
+    height: 378px;
+}
+
+.card__header-sale{
+    position: absolute;
+    padding: 10px;
+    background-color: #e74040;
+    color: #fff;
+    top: 9px;
+    left: 9px;
+    
+}
+
+/* ABOUT STAYLES END */
+
+/* PACKAGES STYLE START */
+.packages{
+    background-color: #b9eaa8;
+}
+
+.packages__info{
+    width: 691px;
+    padding-top: 160px;
+}
+
+.packages__info-text{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.packages__info-title{
+    width: 609px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.packages__info-desc{
+    width: 463px;
+    margin-top: 0;
+    margin-bottom: 96px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.packages__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1017px;
+}
+
+.packages__list:not(last-child){
+    margin-right: 15px;
+}
+
+.packages__item{
+    display: flex;
+}
+
+.packages__item:not(last-child){
+    margin-right: 15px;
+}
+
+.packages__item-start{
+    position: relative;
+}
+
+.packages__item-img{
+    display: inline-block;
+    width: 209px;
+    height: 388px;
+}
+
+.packages__item-sale{
+    position: absolute;
+    padding: 0px 10px;
+    left: 20px;
+    top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #E74040;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.packages__list{
+    padding-bottom: 184px;
+}
+
+.packages__item-shop{
+    position: absolute;
+    bottom: 24px;
+    left: 13%;
+}
+.packages__item-shop--img{
+    width: 21px;
+    height: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.packages__item-shop--img:not(last-child){
+    margin-right: 10px;
+}
+
+.packages__item-desc{
+    height: 363px;
+    position: relative;
+    padding: 25px 25px 0px 25px;
+    background-color: #fff;
+}
+.packages__item-desc::after{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 5px 5px 5px 5px;
+    content: url(../images/star-img.svg) '4.9';
+    background: #252B42;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+
+.packages__item-desc--text{
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.packages__item-desc--title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.packages__item-desc--info{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.packages__item-desc--sales{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.packages__item-desc--sales::before{
+    content: url(../images/download.svg);
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.packages__item-desc--price{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+
+.green{
+    color: #40BB15;
+}
+
+.packages__item-desc--chart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.packages__item-chart--info{
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.packages__item-chart--info::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(../images/clock-img.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.packages__item-chart--info:nth-child(2)::before{
+    content: url(../images/lessons-img.svg);
+}
+
+.packages__item-chart--info:nth-child(3)::before{
+    content: url(../images/progress-img.svg);
+}
+
+.packages__item-desc--link{
+    display: inline-block;
+    margin-top: 0;
+    padding: 10px 40px 10px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border: 1px solid #23A6F0;
+    border-radius: 37px;
+    color: #23A6F0;
+}
+/* PACKAGES STYLE END */
+/* Hero section styles end */
+
+/**************** SITE MAIN STYLES END  ***************************/
+
